@@ -5,7 +5,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-        
+    position: relative;
+      
 
 }
 
@@ -13,9 +14,12 @@
     width: 20px;
     height: 20px;
     background-color: brown;
+    
 }
 
 .previsualizador-logotipo{
-    transform:translate(240px,180px)
+    position:absolute;
+    left: 62%;
+    top:36%
 }
 
