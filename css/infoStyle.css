@@ -1,0 +1,56 @@
+#exampleModalLabel, #pictogramas, #titleTipografia, #botonesColors p,#tallas,#precio, .btn-primary, .btn-secondary{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#precio{
+    color: red;
+    font-size: 20px
+}
+
+#botonesColors div{
+    display: inline-block;
+    border-width: 3px;
+}
+
+
+.btn-tipo{
+    display: inline-block;
+    background-color: #a4a8a4;
+    border: none;
+    width: 59px;
+    height: 49px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+#tallas div{
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #555555;
+    margin: 2px;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn-primary, .btn-secondary{
+    color:black;
+    background-color: #a4a8a4;
+    border-radius: 10px;
+    border: 5px solid  #a4a8a4;
+    text-align: center;
+    margin-top: 35px;
+    
+    
+}
+
+@media only screen and (max-width : 480px) {
+    .btn-primary, .btn-secondary{ width: 100%; }
+    
+  }
+
