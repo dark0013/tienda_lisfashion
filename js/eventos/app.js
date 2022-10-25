@@ -34,8 +34,8 @@ const cambiarCamisaColor = (parametro) => {
     console.log("entra");
    // $('#previsualizador-imagen').css('background-color', '#FF4000');
    // $("#previsualizador-imagen"). css('previsualizador-imagen', 'url("https://vignette.wikia.nocookie.net/despicableme/images/0/06/Daveault2.png/revision/latest?cb=20130911160410")');
-    $("#previsualizador-imagen").css("background-image", "../../assets/img/camisagris.png");//
-    $("#campotexto").attr(".xprevisualizador-imagen") ;
+    $("#previsualizador-imagen").css("background-image","url(" + '././assets/img/'+ parametro + ")");
+    $("#campotexto").attr(".previsualizador-imagen") ;
 };
 
 const cambiarPictograma = (parametro) => {
