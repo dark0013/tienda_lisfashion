@@ -5,7 +5,10 @@ $(document).ready(() => {
     $("#color-rosado").on("click", () => { cambiarCamisaColor("camiseta7.png") });
     $("#color-gis").on("click", () => { cambiarCamisaColor("camisagris.png") });
     $("#color-blanca").on("click", () => { cambiarCamisaColor("camisablanca.png") });
-
+    $("#color-celeste").on("click", () => { cambiarCamisaColor("camiseta3.png") });
+    $("#color-gris-oscuro").on("click", () => { cambiarCamisaColor("camiseta4.png") });
+    $("#color-plomo").on("click", () => { cambiarCamisaColor("camiseta5.png") });
+    $("#color-violeta").on("click", () => { cambiarCamisaColor("camiseta6.png") });
 
 
     /*pictograma */
