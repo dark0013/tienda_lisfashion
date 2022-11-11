@@ -21,3 +21,12 @@
     top:36%
 }
 
+section.container {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.DroidSerif-Bold{
+    font-family: 'DroidSerif';
+    font-weight: bold;
+}

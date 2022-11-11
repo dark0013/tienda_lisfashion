@@ -7,10 +7,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="module/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/infoStyle.css">
     <link rel="stylesheet" href="css/letrasCamisas.css">
+    <link rel="stylesheet" href="css/navigationBarStyle.css">
 </head>
+<header>
+    <div class="bg-dark">
+        <div class="container-lg">
+            <div class="row text-white py-1 align-items-center">
+                <div class="col-4 col-md-3 col-lg-4">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-xl-5 hide-siguenos">
+                            <div class="row align-items-center">
+                                <div class="col-3"><span aria-hidden="true">
+                                        <img src="assets/navigation-bar/checkmark.png" class="checkmark" height="25px"
+                                            width="25px" alt="">
+                                    </span></div>
+                                <div class="col-6"><a href="#" class="text-white my-2"><span>Síguenos</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row justify-content-start align-items-center">
+                                <div class="col-2 px-2">
+                                    <a href="#" aria-hidden="true">
+                                        <img src="assets/navigation-bar/instagram-icon.png" class="instagram-icon"
+                                            height="25px" width="25px" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-2 px-2">
+                                    <a href="#" aria-hidden="true">
+                                        <img src="assets/navigation-bar/facebook-icon.png" class="facebook-icon"
+                                            height="25px" width="25px" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-2 px-2">
+                                    <a href="#" aria-hidden="true">
+                                        <img src="assets/navigation-bar/tik-tok-icon.png" class="tik-tok-icon"
+                                            height="25px" width="25px" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-2 px-2">
+                                    <a href="#" aria-hidden="true">
+                                        <img src="assets/navigation-bar/twitter-icon.png" class="twitter-icon"
+                                            height="25px" width="25px" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-2 px-2">
+                                    <a href="#" aria-hidden="true">
+                                        <img src="assets/navigation-bar/linkedin-icon.png" class="linkedin-icon"
+                                            height="25px" width="25px" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5 col-md-7 col-lg-5">
+                    <div class="barra-busqueda justify-content-end">
+                        <input id="inputBusqueda" type="text" placeholder="Busca tu producto"
+                            class="estilo bg-dark text-white">
+                        <button type="button" id="btnBuscar" title="Buscar"
+                            class="btn btn-outline-light">&#x1f50d;&#xfe0e;</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row justify-content-end align-items-center">
+                        <div class="col-md-6 pe-0 d-lg-flex justify-content-end hide-micuenta"><a href="#"
+                                class="text-white my-2"><span>Mi cuenta</span></a></div>
+                        <div class="col-4 px-1 col-lg-2"><span aria-hidden="true">
+                                <img src="assets/navigation-bar/avatar-icon.png" height="25px" width="25px" alt="">
+                            </span>
+                        </div>
+                        <div class="col-4 px-1 col-lg-2"><a href="#"><span aria-hidden="true">
+                                    <img src="assets/navigation-bar/location-icon.png" height="25px" width="25px"
+                                        alt=""></span></a>
+                        </div>
+                        <div class="col-4 px-1 col-lg-2"><a href="#"><span aria-hidden="true">
+                                    <img src="assets/navigation-bar/shopping-cart-icon.png" height="25px" width="25px"
+                                        alt="">
+                                </span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-light shadow">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light  bg-light">
+                <div class="container-fluid"><a href="#" class="navbar-brand"></a> <button type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                        class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+                    <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ms-auto mb-5 mb-lg-1">
+                            <li class="nav-item"><a aria-current="page" href="#"
+                                    class="nav-link active DroidSerif-Regular">INICIO</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link DroidSerif-Regular">NOSOTROS</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link DroidSerif-Regular">PRODUCTOS</a></li>
+                            <li class="nav-item dropdown"><a href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false"
+                                    class="nav-link dropdown-toggle DroidSerif-Regular">
+                                    SERVICIOS
+                                </a>
+                                <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item DroidSerif-Italic hoveSubmenu">Línea de
+                                            Confección</a></li>
+                                    <li><a href="#" class="dropdown-item DroidSerif-Italic hoveSubmenu">Etiquetado</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a href="#" class="nav-link DroidSerif-Regular">TIENDA
+                                    ONLINE</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link DroidSerif-Regular">NOTICIAS</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link DroidSerif-Regular">CONTÁCTENOS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+</header>
 
 <body>
 
@@ -22,6 +143,7 @@
 
                 <img src="assets/img/camisagris.png" height="300px" width="300px" data-bs-toggle="modal"
                     data-bs-target="#camisetaModal" alt="">
+                    <div class="row"><p class="DroidSerif-Bold text-center">Camiseta Cuello Redondo</p></div>
 
                 <!-- Modal -->
                 <div class="modal fade" id="camisetaModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -31,7 +153,7 @@
                             <div class="modal-body">
                                 <div class="row">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Camisa Polo</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel">Camiseta Cuello Redondo</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
@@ -65,27 +187,27 @@
                                                 <div class="color-rosado"
                                                     style="background-color: rgb(209, 9, 136); width: 25px; height: 25px; border-radius: 25px;">
                                                 </div>
-                                                
+
                                             </div>
 
                                             <div class="col-sm-5" id="pictogramas">
                                                 <p>Pictograma</p>
-                                                <img src="assets/icons/icon2.svg" class="icon2" height="25px" width="25px"
-                                                    alt="">
-                                                <img src="assets/icons/icon3.svg" class="icon3" height="25px" width="25px"
-                                                    alt="">
-                                                <img src="assets/icons/icon4.svg" class="icon4" height="25px" width="25px"
-                                                    alt="">
-                                                <img src="assets/icons/icon5.svg" class="icon5" height="25px" width="25px"
-                                                    alt="">
-                                                <img src="assets/icons/icon6.svg" class="icon6" height="25px" width="25px"
-                                                    alt="">
-                                                <img src="assets/icons/icon7.svg" class="icon7" height="25px" width="25px"
-                                                    alt="">
-                                                <img src="assets/icons/icon8.svg" class="icon8" height="25px" width="25px"
-                                                    alt="">
-                                                <img src="assets/icons/icon9.svg" class="icon9" height="25px" width="25px"
-                                                    alt="">
+                                                <img src="assets/icons/icon2.svg" class="icon2" height="25px"
+                                                    width="25px" alt="">
+                                                <img src="assets/icons/icon3.svg" class="icon3" height="25px"
+                                                    width="25px" alt="">
+                                                <img src="assets/icons/icon4.svg" class="icon4" height="25px"
+                                                    width="25px" alt="">
+                                                <img src="assets/icons/icon5.svg" class="icon5" height="25px"
+                                                    width="25px" alt="">
+                                                <img src="assets/icons/icon6.svg" class="icon6" height="25px"
+                                                    width="25px" alt="">
+                                                <img src="assets/icons/icon7.svg" class="icon7" height="25px"
+                                                    width="25px" alt="">
+                                                <img src="assets/icons/icon8.svg" class="icon8" height="25px"
+                                                    width="25px" alt="">
+                                                <img src="assets/icons/icon9.svg" class="icon9" height="25px"
+                                                    width="25px" alt="">
                                                 <img src="assets/icons/icon10.svg" class="icon10" height="25px"
                                                     width="25px" alt="">
                                                 <img src="assets/icons/icon11.svg" class="icon11" height="25px"
@@ -183,7 +305,7 @@
 
                     <img src="assets/img/camisablanca.png" height="300px" width="300px" data-bs-toggle="modal"
                         data-bs-target="#poloModal" alt="">
-
+                        <div class="row"><p class="DroidSerif-Bold text-center">Camisa Polo</p></div>
                     <!-- Modal -->
                     <div class="modal fade" id="poloModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
@@ -212,10 +334,6 @@
                                             <div class="row">
                                                 <div class="col-sm-5" id="botonesColors">
                                                     <p>Color</p>
-                                                    
-                                                    <div class="color-rosado"
-                                                        style="background-color: rgb(209, 9, 136); width: 25px; height: 25px; border-radius: 25px;">
-                                                    </div>
 
                                                     <div class="color-blanca"
                                                         style="background-color: rgb(235, 229, 233); width: 25px; height: 25px; border-radius: 25px;">
@@ -337,12 +455,8 @@
                             </div>
                         </div>
                     </div>
-
-
                     <!-- fin de la camiseta -->
                 </div>
-
-            </div>
         </div>
 
     </section>
