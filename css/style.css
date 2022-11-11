@@ -22,8 +22,11 @@
 }
 
 section.container {
-    text-align: center;
     padding-top: 40px;
+    align-items: center;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
 }
 
 .DroidSerif-Bold{
