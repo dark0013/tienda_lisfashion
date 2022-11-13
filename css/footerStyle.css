@@ -1,0 +1,31 @@
+.envios {
+    background-color: rgb(212, 207, 207);
+    padding: 10px 0 ;
+}
+.infoFinal{
+    background-image: linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, 0.50)), url('../assets/img/tela_negra.jpg');
+    background-position: center;
+    color:white;
+}
+
+.infoFinal h5, .infoFinal .col-md-3 p{
+    color: red;
+}
+
+.infoFinal .col-md-3 p{
+    font-size: 15px;
+}
+
+footer {
+    padding-top: 100px;
+}
+
+.fa-shipping-fast, .fa-lock, .fa-credit-card{
+    font-family: "FontAwesome", sans-serif;
+    color: rgb(122, 120, 120);
+    font-size: 40px;
+}
+
+#registrarme, #nosotros, #ubicacion{
+    padding-top: 30px;
+}
