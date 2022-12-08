@@ -29,3 +29,8 @@ footer {
 #registrarme, #nosotros, #ubicacion{
     padding-top: 30px;
 }
+
+.DroidSerif-Bold {
+    font-family: 'DroidSerif-Bold';
+    font-weight: bold;
+}

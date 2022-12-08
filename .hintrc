@@ -9,5 +9,12 @@
         "button-name": "off"
       }
     ]
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not edge <= 106",
+    "not ios_saf <= 16",
+    "not safari <= 16"
+  ]
 }
