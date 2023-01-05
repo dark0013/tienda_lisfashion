@@ -3,7 +3,7 @@
     padding: 10px 0 ;
 }
 .infoFinal{
-    background-image: linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, 0.50)), url('../assets/img/tela_negra.jpg');
+    background-image: linear-gradient(rgba(5, 7, 12, 0.50), rgba(5, 7, 12, 0.50)), url('../assets/img/Fondo-pie-pagina.jpg');
     background-position: center;
     color:white;
 }
